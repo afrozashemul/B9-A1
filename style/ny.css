@@ -1,0 +1,32 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    display: flex;
+}
+h5{
+    position :absolute;
+    top :100px;
+    left :50%;
+    transform :translateX(-50%);
+    z-index: 1;
+    color: white;
+}
+h1{
+    width: 25%;
+    font-size: 40px;
+    position :absolute;
+    top :120px;
+    left :50%;
+    transform :translateX(-50%);
+    z-index: 1;
+    color: white;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.8;
+}
